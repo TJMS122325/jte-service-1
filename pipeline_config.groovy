@@ -1,3 +1,15 @@
+library_sources {
+  github {
+    org = "TJMS122325"
+    repo = "jenkins-jte-libraries"
+    branch = "main"
+  }
+}
+
+libraries {
+  javaProject
+}
+
 project {
   name = "demo-service-1"
   artifact = "demo-service-1"
